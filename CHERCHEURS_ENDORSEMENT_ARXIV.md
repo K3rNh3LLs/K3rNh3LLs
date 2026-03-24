@@ -77,20 +77,29 @@
 | 1 | **Ion Stoica** | UC Berkeley, USA | Co-createur de Chord (DHT fondatrice) | Legende DHT, ton travail etend le sien |
 | 2 | **Petar Maymounkov** | Independant, NYC | Createur de Kademlia | Ta DHT-5D est une extension directe |
 | 3 | **Scott Shenker** | UC Berkeley, USA | Reseaux overlay, systemes distribues | Co-auteur Chord, SDN |
-| 4 | **Rachid Guerraoui** | EPFL, Suisse | Tolerance aux fautes, consensus distribue, Byzantine | Reference systemes distribues |
-| 5 | **Robbert van Renesse** | Cornell, USA | Protocoles gossip, DHT, replication | Fondamentaux P2P |
-| 6 | **Chen Qian** | UC Santa Cruz, USA | Overlay networks, federated learning decentralise (FedLay) | Paper FedLay ICNP 2024 |
-| 7 | **Yifan Hua** | UC Santa Cruz, USA | Topologies overlay pour DFL, graphes reguliers | Travail recent 2024 sur overlays |
-| 8 | **Gareth Tyson** | HKUST, Hong Kong | Mesures reseaux P2P, systemes decentralises | Actif cs.NI |
-| 9 | **Ethan Buchman** | Tendermint/Cosmos, Canada | Consensus BFT, governance blockchain, DAO | **Canadien**, ecosysteme blockchain |
-| 10 | **Ali Dorri** | QUT, Australie | Blockchain + IoT, systemes decentralises | Intersection blockchain/P2P |
-| 11 | **Joao Leitao** | NOVA University, Portugal | Protocoles epidemiques, overlay networks large-scale | Systemes distribues |
-| 12 | **Davide Vega** | Uppsala University, Suede | Reseaux decentralises, mesures P2P | Actif cs.NI |
+| 4 | **Rachid Guerraoui** | EPFL, Suisse | Tolerance aux fautes, consensus distribue, Byzantine | Reference systemes distribues, **francophone** |
+| 5 | **Chen Qian** | UC Santa Cruz, USA | DHT appris (LEAD), overlay pour FL et LLM serving (GenTorrent) | **NSF CAREER**, Program Chair IEEE ICNP 2026. Papers LEAD DHT (2025) + GenTorrent (2025) |
+| 6 | **Thibault Cholez** | Univ. Lorraine / LORIA / INRIA, France | Securite DHT (attaques Sybil/eclipse), defense IPFS Kademlia | **Francophone**, SR-DHT-Store defense (2025). Pertinent pour ta resistance Sybil |
+| 7 | **Mikel Cortes-Goicoechea** | Barcelona Supercomputing Center / UPC, Espagne | Scalabilite Kademlia pour Ethereum DAS, mesure decentralisation | Paper scalabilite Kademlia (arXiv:2402.09993, 2024) |
+| 8 | **Csaba Kiraly** | Ethereum Foundation / ex-FBK Trento, Italie | DHT Data Availability Sampling, reseaux mesh/overlay P2P | 20+ ans d'experience P2P, simulation DAS (2024) |
+| 9 | **Dennis Trautwein** | University of Gottingen, Allemagne | Mesure reseau IPFS, optimisation DHT, NAT traversal | IPFS Optimistic Provide (IEEE INFOCOM 2024), Protocol Labs Fellow |
+| 10 | **Rainer Feichtinger** | ETH Zurich (DISCO group), Suisse | Gouvernance DAO empirique, attaques sur DAO | "SoK: Attacks on DAOs" (AFT 2024). Pertinent pour ta DAO ethique |
+| 11 | **Lioba Heimbach** | ETH Zurich (DISCO group), Suisse | DeFi securite, gouvernance DAO, MEV | Tres prolifique 2024-2025, USENIX Security 2025 |
+| 12 | **Rashmi Kushwaha & Y.N. Singh** | IIT Kanpur, Inde | Metrique DHT generalisee (unifie Chord/Kademlia/Tapestry/Pastry) | Paper metrique generalisee (arXiv:2303.13965, 2024). Ta DHT-5D ajoute des dimensions |
+| 13 | **Yiluo Wei** | HKUST-GZ, Chine | Centralisation IPFS, performance indexation Kademlia | "Eternal Tussle" (USENIX NSDI 2024) |
+| 14 | **Leonhard Balduf** | TU Darmstadt, Allemagne | Decentralisation IPFS, moderation contenu decentralise | IMC 2023-2024, Bluesky analysis |
+| 15 | **Christoffer Fink** | Lulea University, Suede | Kademlia DHT pour sharding blockchain dynamique (ScaleGraph) | DHT + blockchain = intersection directe |
+| 16 | **Robbert van Renesse** | Cornell, USA | Protocoles gossip, DHT, replication | Fondamentaux P2P |
+| 17 | **Ethan Buchman** | Tendermint/Cosmos, Canada | Consensus BFT, governance blockchain, DAO | **Canadien**, ecosysteme blockchain |
+| 18 | **Ting He** | Penn State, USA | Overlay decentralise pour FL, topologie P2P | MobiHoc 2024, overlays bandwidth-limited |
+| 19 | **Minghui Xu** | Shandong University, Chine | Stockage decentralise, BFT, chiffrement distribue | FileDES (IEEE INFOCOM 2024), SoK Decentralized Storage |
 
 ### Contacts prioritaires pour UBLinx DHT-5D :
-1. **Rachid Guerraoui** — EPFL, reference mondiale systemes distribues, francophone.
-2. **Chen Qian** — Travail tres recent (2024) sur overlay networks, directement pertinent.
-3. **Ion Stoica** — Si endorsement de l'inventeur de Chord, c'est le jackpot de credibilite.
+1. **Thibault Cholez** — INRIA/Lorraine, **francophone**, securite DHT. Ta resistance Sybil via dimension reputation l'interessera. Accessible.
+2. **Chen Qian** — LEAD DHT (2025) + GenTorrent (2025). Directement pertinent, tres actif, NSF CAREER.
+3. **Rachid Guerraoui** — EPFL, **francophone**, reference mondiale systemes distribues.
+4. **Rainer Feichtinger** — ETH Zurich, gouvernance DAO. Ta DAO ethique avec veto Ethics Committee est unique.
+5. **Ion Stoica** — Si endorsement de l'inventeur de Chord, c'est le jackpot de credibilite.
 
 ---
 
@@ -140,11 +149,12 @@
 | **3** | **Robert Long** | Conscience IA | Travaille exactement sur conscience artificielle et statut moral. Ton Tome III est pour lui. |
 | **4** | **Chris Eliasmith** | Neuromorphique | Canadien (Waterloo), architectures cognitives. VTore = son domaine. |
 | **5** | **Andrej Kitanovski** | Thermomagnétique | Pompes a chaleur magnetiques = exactement HyperVortex. Accessible. |
-| **6** | **Rachid Guerraoui** | Systemes distribues | EPFL, francophone, reference mondiale. DHT-5D dans son champ. |
-| **7** | **Jonathan Birch** | Conscience IA | Framework detection conscience. Ton CAD (Tome III) est complementaire. |
-| **8** | **Charlotte Frenkel** | Neuromorphique | Etoile montante, NeuroBench. Pourrait benchmarker ton architecture. |
-| **9** | **Victorino Franco** | MCE | Reference MCE. Endorsement = credibilite instantanee en physique. |
-| **10** | **Chen Qian** | P2P/DHT | Travail 2024 sur overlays. Directement pertinent pour DHT-5D. |
+| **6** | **Thibault Cholez** | Systemes distribues | INRIA/Lorraine, **francophone**, securite DHT/Sybil. Directement pertinent + accessible. |
+| **7** | **Rachid Guerraoui** | Systemes distribues | EPFL, francophone, reference mondiale. DHT-5D dans son champ. |
+| **8** | **Jonathan Birch** | Conscience IA | Framework detection conscience. Ton CAD (Tome III) est complementaire. |
+| **9** | **Charlotte Frenkel** | Neuromorphique | Etoile montante, NeuroBench. Pourrait benchmarker ton architecture. |
+| **10** | **Victorino Franco** | MCE | Reference MCE. Endorsement = credibilite instantanee en physique. |
+| **11** | **Chen Qian** | P2P/DHT | LEAD DHT + GenTorrent (2025). NSF CAREER, Program Chair ICNP 2026. |
 
 ---
 
